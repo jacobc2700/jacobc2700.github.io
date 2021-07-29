@@ -37,7 +37,7 @@ const Navigation = (props) => {
     <Fragment>
       <nav className='navbar'>
         <h1>
-          <a href='/#'>Humboo</a>
+          <a href='/#'>Jacob</a>
           <button className={'toggleThemeButton'} onClick={handleClick}>
             {icon}
           </button>

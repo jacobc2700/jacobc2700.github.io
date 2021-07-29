@@ -32,14 +32,14 @@ const Footer = () => {
           <i className='footer-icon fa fa-linkedin'></i>
         </a>
         <a
-          href='mailto:jacobchang124@gmail.com'
-          data-tooltip='Gmail'
+          href='mailto:jechang3@illinois.edu'
+          data-tooltip='Email'
           data-tooltip-location='top'
         >
           <i className='footer-icon fa fa-envelope'></i>
         </a>
 
-        <p className='footer-text'>Designed by Jacob C.</p>
+        <p className='footer-text'>Designed by Jacob</p>
       </footer>
     </Fragment>
   );

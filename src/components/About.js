@@ -8,10 +8,11 @@ const About = () => {
         <div className='biography'>
           <div>
             <p>
-              My name is Jacob Chang and I am a software engineer. I use
-              JavaScript for my web applications, Java for data structures &
-              algorithms, and Python for my data science, machine learning, and
-              artificial intelligence projects. Check out my projects below.
+              Hello :) My name is Jacob Chang and I'm a software developer,
+              college student, and avid learner. I use JavaScript for my web
+              applications, Java for data structures & algorithms, and Python
+              for my data science, machine learning, and artificial intelligence
+              projects. Check out my projects below.
             </p>
           </div>
         </div>

@@ -1,11 +1,26 @@
 import React, { Fragment } from 'react';
+import projects from '../data/projects';
+import ProjectCard from './ProjectCard';
+
+function createProjectCard(project) {
+  return (
+    <ProjectCard
+      name={project.name}
+      language={project.language}
+      description={project.description}
+      linkURL={project.linkURL}
+      sourceURL={project.sourceURL}
+    />
+  );
+}
 
 const Projects = () => {
   return (
     <Fragment>
       <section className='projects'>
         <h1 className='project-title'>Projects</h1>
-        <div className='card'>
+        {projects.map(createProjectCard)}
+        {/* <div className='card'>
           <h1>Project Name</h1>
           <p className='title'>Language</p>
           <p>Description of project goes here.</p>
@@ -31,7 +46,7 @@ const Projects = () => {
             <a href='#'>Link</a>
             <a href='#'>Source</a>
           </div>
-        </div>
+        </div> */}
         {/* <div className='card'>
           <h1>Flexer</h1>
           <p className='title'>JavaScript</p>

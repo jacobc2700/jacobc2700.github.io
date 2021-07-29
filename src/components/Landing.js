@@ -124,7 +124,7 @@ const Landing = (props) => {
         </div>
 
         <div className='intro'>
-          <h1 className='header'>Hello, I'm Humboo.</h1>
+          <h1 className='header'>Hello, I'm Jacob.</h1>
           <a href='/#' className='btn'>
             Explore &nbsp; <i className='fa fa-arrow-down'></i>
           </a>
