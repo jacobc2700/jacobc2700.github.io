@@ -1,6 +1,6 @@
 # jacobc2700.github.io
 
-Check out my personal website: https://www.thehumboo.com/.
+Check out my personal website: https://www.jacobechang.com/.
 
 ### Deployment:
 
@@ -18,8 +18,8 @@ git commit -m "Commit Message"
 git push origin master
 ```
 
-- Go to the repository settings and set the custom domain to `www.thehumboo.com` (enforce HTTPS).
-- The updated website should be live: https://www.thehumboo.com/.
+- Go to the repository settings and set the custom domain to `www.jacobechang.com` (enforce HTTPS).
+- The updated website should be live: https://www.jacobechang.com/.
 
 ### Technologies:
 
