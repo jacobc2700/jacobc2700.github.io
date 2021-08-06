@@ -1,12 +1,10 @@
 @import 'tooltips';
 
 a {
-  //Remove underline.
   text-decoration: none;
 }
 
 ul {
-  //Remove bullet points.
   list-style: none;
 }
 
@@ -188,7 +186,7 @@ ul {
   .card {
     //change to black
     border: 1px solid $project-card-border-color;
-    
+
     //change to white
     background-color: $project-card-bg-color;
     border-radius: 0.2rem;
