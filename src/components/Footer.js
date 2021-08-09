@@ -6,7 +6,7 @@ const Footer = () => {
       <footer className='footer'>
         <a
           href='https://github.com/jacobc2700'
-          data-tooltip='GITHUB'
+          data-tooltip='GitHub'
           data-tooltip-location='top'
           target='_blank'
           rel='noopener noreferrer'
@@ -15,7 +15,7 @@ const Footer = () => {
         </a>
         <a
           href='https://www.linkedin.com/in/jacob-chang-94a695191/'
-          data-tooltip='LINKEDIN'
+          data-tooltip='LinkedIn'
           data-tooltip-location='top'
           target='_blank'
           rel='noopener noreferrer'
@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
         <a
           href='mailto:jacobchang124@gmail.com'
-          data-tooltip='EMAIL'
+          data-tooltip='Gmail'
           data-tooltip-location='top'
         >
           <i className='footer-icon fa fa-envelope'></i>

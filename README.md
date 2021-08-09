@@ -31,12 +31,6 @@ git push origin master
 - Sass: https://sass-lang.com/.
 - React: https://reactjs.org/.
 
-### Redirects
-
-- These other domains should redirect to https://www.jacobechang.com/.
-- Repository website: https://jacobc2700.github.io/.
-- Previous domain name: https://thehumboo.com.
-
 ### Fix:
 
 - remove hover effect on mobile for footer icons
