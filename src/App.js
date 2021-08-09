@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import { useState } from 'react';
 
 import './scss/main.scss';
 
