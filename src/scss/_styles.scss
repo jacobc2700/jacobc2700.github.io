@@ -1,4 +1,4 @@
-@import 'tooltips';
+@import "tooltips";
 
 a {
   text-decoration: none;
@@ -155,7 +155,7 @@ ul {
     font-size: 1.3em;
 
     .devicon-label {
-      font-family: 'Lato' !important;
+      font-family: "Lato" !important;
     }
   }
 
@@ -254,4 +254,8 @@ i.footer-icon:hover {
   color: rgb(139, 139, 139);
 }
 
-@import 'mobile';
+#projectName {
+  color: #00bc8c;
+}
+
+@import "mobile";
