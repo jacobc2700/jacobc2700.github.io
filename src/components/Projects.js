@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import projects from '../data/projects';
-import ProjectCard from './ProjectCard';
+import React, { Fragment } from "react";
+import projects from "../data/projects";
+import ProjectCard from "./ProjectCard";
 
 function createProjectCard(project) {
   return (
@@ -17,8 +17,8 @@ function createProjectCard(project) {
 const Projects = () => {
   return (
     <Fragment>
-      <section className='projects'>
-        <h1 className='project-title'>Projects</h1>
+      <section className="projects">
+        <h1 className="project-title">Projects</h1>
         {projects.map(createProjectCard)}
         {/* <div className='card'>
           <h1>Project Name</h1>
