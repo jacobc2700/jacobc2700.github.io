@@ -31,7 +31,8 @@ git push origin master
 - Sass: https://sass-lang.com/.
 - React: https://reactjs.org/.
 
-### Fix:
+### Tasks:
 
 - remove hover effect on mobile for footer icons
 - add markdown style blog
+- add react router

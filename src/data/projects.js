@@ -3,7 +3,7 @@ const projects = [
     name: 'Newton Employee Salaries',
     language: 'JavaScript',
     description: 'Website for browsing payroll data.',
-    linkURL: 'https://youtu.be/eYor5dEHkTI',
+    linkURL: '#',
     sourceURL: 'https://github.com/jacobc2700',
   },
   {

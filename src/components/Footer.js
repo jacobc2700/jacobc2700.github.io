@@ -1,45 +1,45 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
 const Footer = (props) => {
   return (
     <Fragment>
-      <footer className="footer" ref={props.reference}>
+      <footer className='footer' ref={props.reference}>
         <a
-          href="https://github.com/jacobc2700"
-          data-tooltip="GitHub"
-          data-tooltip-location="top"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://github.com/jacobc2700'
+          data-tooltip='GitHub'
+          data-tooltip-location='top'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <i className="footer-icon fa fa-github"></i>
+          <i className='footer-icon fa fa-github'></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/jechang3/"
-          data-tooltip="LinkedIn"
-          data-tooltip-location="top"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://www.linkedin.com/in/jechang3/'
+          data-tooltip='LinkedIn'
+          data-tooltip-location='top'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <i className="footer-icon fa fa-linkedin"></i>
+          <i className='footer-icon fa fa-linkedin'></i>
         </a>
         <a
-          href="https://drive.google.com/file/d/1fWKXR-SfdxXNbyoP7uFwQdtfjSp6pISH/view"
-          data-tooltip="Resume"
-          data-tooltip-location="top"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://drive.google.com/file/d/11RnQ7Wok2m2cPyOM6yVSfp4vKKlGiXAj/view'
+          data-tooltip='Resume'
+          data-tooltip-location='top'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <i className="footer-icon fa fa-file"></i>
+          <i className='footer-icon fa fa-file'></i>
         </a>
         <a
-          href="mailto:jacobchang124@gmail.com"
-          data-tooltip="Gmail"
-          data-tooltip-location="top"
+          href='mailto:jacobchang124@gmail.com'
+          data-tooltip='Gmail'
+          data-tooltip-location='top'
         >
-          <i className="footer-icon fa fa-envelope"></i>
+          <i className='footer-icon fa fa-envelope'></i>
         </a>
 
-        <p className="footer-text">Designed by Jacob</p>
+        <p className='footer-text'>Designed by Jacob</p>
       </footer>
     </Fragment>
   );
