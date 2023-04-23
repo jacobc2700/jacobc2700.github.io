@@ -8,11 +8,14 @@ const About = (props) => {
         <div className="biography">
           <div>
             <p>
-              Hello! My name is Jacob Chang and I'm a student at the University
+              Hello! My name is Jacob Chang and I'm a Junior at the University
               of Illinois at Urbana-Champaign studying Computer Science. I'm
               currently working on a project called{" "}
-              <a id="projectName" href="https://github.com/jacobc2700/flexer">
-                Flexer
+              <a
+                id="projectName"
+                href="https://github.com/jacobc2700/[untitled]"
+              >
+                [untitled]
               </a>
               , which will hopefully provide a platform for software engineers
               to learn, network, and practice their software development skills.
