@@ -1,12 +1,12 @@
-import React, { Fragment } from "react";
-import projects from "../data/projects";
-import ProjectCard from "./ProjectCard";
+import React, { Fragment } from 'react';
+import projects from '../data/projects';
+import ProjectCard from './ProjectCard';
 
 function createProjectCard(project) {
   return (
     <ProjectCard
       name={project.name}
-      language={project.language}
+      date={project.date}
       description={project.description}
       linkURL={project.linkURL}
       sourceURL={project.sourceURL}
@@ -14,11 +14,11 @@ function createProjectCard(project) {
   );
 }
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <Fragment>
-      <section className="projects">
-        <h1 className="project-title">Projects</h1>
+      <section className='projects' ref={props.reference}>
+        <h1 className='project-title'>Projects</h1>
         {projects.map(createProjectCard)}
         {/* <div className='card'>
           <h1>Project Name</h1>

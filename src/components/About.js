@@ -1,86 +1,54 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
 const About = (props) => {
   return (
     <Fragment>
-      <section className="about" ref={props.reference}>
+      <section className='about' ref={props.reference}>
         <h1>About Me</h1>
-        <div className="biography">
+        <div className='biography'>
           <div>
             <p>
               Hello! My name is Jacob Chang and I'm a Junior at the University
-              of Illinois at Urbana-Champaign studying Computer Science. I'm
-              currently working on a project called{" "}
+              of Illinois at Urbana-Champaign (UIUC) majoring in Computer
+              Science with a minor in Statistics. I am a computer programmer who
+              is interested in developing scalable customer-focused software.
+              I've worked on full-stack web development, data science, and
+              machine learning projects. However, most recently I've been
+              interested in low-level systems programming with C/C++. Other
+              hobbies I've had include playing the{' '}
               <a
-                id="projectName"
-                href="https://github.com/jacobc2700/[untitled]"
+                target='_blank'
+                href='https://www.youtube.com/playlist?list=PLts6Hfh7zIYthSGU38ZxyQMrtRlzyQHqd'
               >
-                [untitled]
+                piano
               </a>
-              , which will hopefully provide a platform for software engineers
-              to learn, network, and practice their software development skills.
-              Check out my resume below and feel free to reach out to me. I am
-              always open to new opportunities or just to chat.
+              , making videos about my{' '}
+              <a
+                target='_blank'
+                href='https://www.youtube.com/playlist?list=PLts6Hfh7zIYs0-wPDHam0TwG25oWJ7qq2'
+              >
+                life
+              </a>
+              , and solving{' '}
+              <a target='_blank' href='https://youtu.be/8TQSZfqI7lU'>
+                cubes
+              </a>
+              . My favorite video games are{' '}
+              <a target='_blank' href='#'>
+                Counter-Strike: Global Offensive
+              </a>
+              ,{' '}
+              <a target='_blank' href='https://youtu.be/fDyRTEFM-C8'>
+                Minecraft
+              </a>
+              , and{' '}
+              <a target='_blank' href='https://youtu.be/kVqXXhPiMj4'>
+                Clash Royale
+              </a>
+              . Check out my experiences below and please feel free to reach out
+              to me. I am always open to new opportunities, project ideas, or
+              just to chat.
             </p>
-          </div>
-        </div>
-
-        <div className="technology-list-container">
-          <div>
-            <div>
-              <i className="devicon devicon-react-original colored"></i>
-              <span className="devicon-label">React</span>
-            </div>
-            <div>
-              <i className="devicon devicon-javascript-plain colored"></i>
-              <span className="devicon-label">JavaScript</span>
-            </div>
-            <div>
-              <i className="devicon devicon-mongodb-plain colored"></i>
-              <span className="devicon-label">MongoDB</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <i className="devicon devicon-nodejs-plain colored"></i>
-              <span className="devicon-label">Node.js</span>
-            </div>
-            <div>
-              <i className="devicon devicon-python-plain colored"></i>
-              <span className="devicon-label">Python</span>
-            </div>
-            <div>
-              <i className="devicon devicon-html5-plain colored"></i>
-              <span className="devicon-label">HTML</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <i className="devicon devicon-cplusplus-plain colored"></i>
-              <span className="devicon-label">C++</span>
-            </div>
-            <div>
-              <i className="devicon devicon-numpy-original colored"></i>
-              <span className="devicon-label">NumPy</span>
-            </div>
-            <div>
-              <i className="devicon devicon-sass-original colored"></i>
-              <span className="devicon-label">SASS</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <i className="devicon devicon-java-plain colored"></i>
-              <span className="devicon-label">Java</span>
-            </div>
-            <div>
-              <i className="devicon devicon-postgresql-plain colored"></i>
-              <span className="devicon-label">PostgreSQL</span>
-            </div>
-            <div>
-              <i className="devicon devicon-tensorflow-original colored"></i>
-              <span className="devicon-label">TensorFlow</span>
-            </div>
           </div>
         </div>
       </section>
