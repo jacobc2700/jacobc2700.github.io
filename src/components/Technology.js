@@ -79,7 +79,7 @@ const Technology = (props) => {
             </div>
             <div>
               <div>
-                <i className='devicon devicon-pandas-original colored'></i>
+                <i className='devicon devicon-pandas-original'></i>
                 <span className='devicon-label'>Pandas</span>
               </div>
               <div>
@@ -193,7 +193,7 @@ const Technology = (props) => {
                 <span className='devicon-label'>NPM</span>
               </div>
               <div>
-                <i className='devicon devicon-markdown-original colored'></i>
+                <i className='devicon devicon-markdown-original'></i>
                 <span className='devicon-label'>Markdown</span>
               </div>
             </div>
@@ -344,7 +344,7 @@ const Technology = (props) => {
           </div>
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Systems Programming ⭐
+            Systems Programming
           </div>
         </div>
       </div>

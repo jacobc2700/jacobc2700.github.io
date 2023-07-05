@@ -5,7 +5,7 @@ const work = [
     url: 'https://www.optum.com/',
     cardSubtitle: 'Network Connectivity Integration',
     cardDetailedText:
-      'Worked on the network integration team to assist in connecting employees under newly acquired companies to the internal Optum (UHG) network securely. Worked on building a graphical user interface (GUI) to automatically populate rack diagram templates from several key documents in the integration process. ',
+      'Worked on the network integration team to assist in connecting employees under acquired companies to the internal Optum network securely. Worked on building a GUI to automatically populate rack diagram templates from key documents in the integration process. Designed a version control system to track files for acquired sites with Django to reduce manual labor by 50%. Utilized sockets for file transfers & remote execution of CLI commands between a server and multiple clients.',
   },
   {
     title: 'January 2023 - April 2023',

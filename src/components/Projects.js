@@ -10,6 +10,7 @@ function createProjectCard(project) {
       description={project.description}
       linkURL={project.linkURL}
       sourceURL={project.sourceURL}
+      technologies={project.technologies}
     />
   );
 }

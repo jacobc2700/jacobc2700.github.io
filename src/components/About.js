@@ -12,11 +12,10 @@ const About = (props) => {
               of Illinois at Urbana-Champaign (UIUC) majoring in Computer
               Science with a minor in Statistics. I am a computer programmer who
               is interested in developing scalable customer-focused software.
-              I'm primarily based in Boston (MA), Chicago (IL), and New York
-              City (NY). I've worked on full-stack web development, data
-              science, and machine learning projects. However, I plan to focus
-              on low-level systems programming with C/C++. Other hobbies I've
-              had include playing the{' '}
+              I'm primarily based in Boston, Massachusetts. I've worked on
+              full-stack web development, data science, and machine learning
+              projects. However, I plan to focus on low-level systems
+              programming with C/C++. Other hobbies I've had include playing the{' '}
               <a
                 target='_blank'
                 href='https://www.youtube.com/playlist?list=PLts6Hfh7zIYthSGU38ZxyQMrtRlzyQHqd'

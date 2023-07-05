@@ -22,6 +22,10 @@
   .fields-tech-listing {
     padding-bottom: 7rem;
   }
+
+  .projects .chip-container {
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {

@@ -7,10 +7,10 @@ const ProjectCard = (props) => {
       <h1>{props.name}</h1>
       <p className='title'>{props.date}</p>
       <p>{props.description}</p>
-      {/* Render automatically please. */}
       <div className='card-links chip-container'>
-        <Chip className='chip' label='JavaScript' />
-        <Chip className='chip' label='Amazon S3' />
+        {props.technologies.map((data) => {
+          return <Chip className='chip' label={data} />;
+        })}
       </div>
       {/* Only render each one if it exists (conditional rendering). */}
       <div className='card-links'>
