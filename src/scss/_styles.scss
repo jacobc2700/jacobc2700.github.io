@@ -144,9 +144,26 @@ ul {
   color: $project-text-color;
   text-align: center;
 
-  .courses {
-    margin: 0 auto;
-    width: 50%;
+  .single-course-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  // Two adjacent technology listings to save space.
+  .adjacent-tech-listings {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+  }
+
+  .courses-container {
+    padding-bottom: 7rem;
+  }
+
+  // Icons for categories of technologies.
+  .tech-listing {
     text-align: center;
   }
 
@@ -291,7 +308,6 @@ ul {
 
     .chip {
       padding: 0 0.2rem;
-      background: white;
       margin: 1rem 0;
       background: grey;
       color: white;
@@ -321,6 +337,11 @@ ul {
 .footer-icon {
   margin: 20px 10px;
   font-size: 30px;
+  color: $white;
+}
+
+.last-updated {
+  font-size: 1rem;
   color: $white;
 }
 

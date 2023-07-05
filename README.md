@@ -30,3 +30,5 @@ git push origin master
 - Icons: https://react-icons.github.io/react-icons.
 - Sass: https://sass-lang.com/.
 - React: https://reactjs.org/.
+- Timeline: https://github.com/prabhuignoto/react-chrono.
+- Material UI: https://mui.com/.

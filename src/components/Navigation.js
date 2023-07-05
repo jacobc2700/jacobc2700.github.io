@@ -34,6 +34,14 @@ const Navigation = (props) => {
     });
   };
 
+  const scrollToTech = (e) => {
+    e.preventDefault();
+    console.log('hello');
+    props.techReference.current.scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
+
   useEffect(() => {
     props.setTheme(localStorage.getItem('theme'));
   });
@@ -90,7 +98,7 @@ const Navigation = (props) => {
               className='nav-link'
               data-page='tech'
               data-target='.tech'
-              // onClick={scrollToAbout}
+              onClick={scrollToTech}
             >
               Tech
             </a>

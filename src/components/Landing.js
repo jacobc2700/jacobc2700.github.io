@@ -19,6 +19,8 @@ const Landing = (props) => {
           aboutReference={props.aboutReference}
           linksReference={props.linksReference}
           projectsReference={props.projectsReference}
+          workReference={props.workReference}
+          techReference={props.techReference}
         ></Navigation>
 
         <div className='stars'>

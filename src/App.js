@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Landing from './components/Landing';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Work from './components/Work';
-import { useRef } from 'react';
 
 import './scss/main.scss';
 import Technology from './components/Technology';
@@ -15,6 +14,7 @@ const App = () => {
   const projectsReference = useRef(null);
   const linksReference = useRef(null);
   const workReference = useRef(null);
+  const techReference = useRef(null);
 
   return (
     <div className={theme ? theme : 'dark'}>
@@ -24,11 +24,12 @@ const App = () => {
           linksReference={linksReference}
           projectsReference={projectsReference}
           workReference={workReference}
+          techReference={techReference}
           theme={theme}
           setTheme={setTheme}
         ></Landing>
         <About reference={aboutReference}></About>
-        <Technology></Technology>
+        <Technology reference={techReference}></Technology>
         <Work reference={workReference}></Work>
         <Projects reference={projectsReference}></Projects>
         <Footer reference={linksReference}></Footer>

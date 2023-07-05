@@ -65,11 +65,13 @@
   visibility: visible;
   opacity: 1;
 }
+
 /* Scales from 0.5 to 1 -> grow effect. */
 [data-tooltip]:hover:before {
   transition-delay: 0.3s;
   transform: translate(-50%, -5px) scale(1);
 }
+
 /* Slide down effect only on mouseenter (NOT on mouseleave). */
 [data-tooltip]:hover:after {
   transition-delay: 0.5s; /* Starting after the grow effect. */
