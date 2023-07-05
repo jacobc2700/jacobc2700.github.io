@@ -30,9 +30,5 @@ git push origin master
 - Icons: https://react-icons.github.io/react-icons.
 - Sass: https://sass-lang.com/.
 - React: https://reactjs.org/.
-
-### Tasks:
-
-- remove hover effect on mobile for footer icons
-- add markdown style blog
-- add react router
+- Timeline: https://github.com/prabhuignoto/react-chrono.
+- Material UI: https://mui.com/.

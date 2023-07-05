@@ -7,8 +7,8 @@
   z-index: 10;
 }
 
-//IMPORTANT: specific tooltip here for top, can change height which it goes up
-/* Positioning and visibility settings of the tooltip */
+// IMPORTANT: specific tooltip here for top, can change height which it goes up.
+/* Positioning and visibility settings of the tooltip. */
 [data-tooltip]:before,
 [data-tooltip]:after {
   position: absolute;
@@ -21,7 +21,7 @@
   will-change: transform;
 }
 
-/* The actual tooltip with a dynamic width */
+/* The actual tooltip with a dynamic width. */
 [data-tooltip]:before {
   content: attr(data-tooltip);
   padding: 10px 18px;
@@ -31,7 +31,6 @@
   width: -moz-max-content;
   border-radius: 6px;
   font-size: 14px;
-  /*   font-size: 0.73rem; */
   background-color: rgba(59, 72, 80, 0.9);
   background-image: linear-gradient(
     30deg,
@@ -46,7 +45,7 @@
   transform: translate(-50%, -5px) scale(0.5);
 }
 
-/* Tooltip arrow */
+/* Tooltip arrow. */
 [data-tooltip]:after {
   content: '';
   border-style: solid;
@@ -54,29 +53,32 @@
   border-color: rgba(55, 64, 70, 0.9) transparent transparent transparent;
   transition-duration: 0s; /* If the mouse leaves the element, 
                                 the transition effects for the 
-                                tooltip arrow are "turned off" */
+                                tooltip arrow are "turned off". */
   transform-origin: top; /* Orientation setting for the
-                                slide-down effect */
+                                slide-down effect. */
   transform: translateX(-50%) scaleY(0);
 }
 
-/* Tooltip becomes visible at hover */
+/* Tooltip becomes visible at hover. */
 [data-tooltip]:hover:before,
 [data-tooltip]:hover:after {
   visibility: visible;
   opacity: 1;
 }
-/* Scales from 0.5 to 1 -> grow effect */
+
+/* Scales from 0.5 to 1 -> grow effect. */
 [data-tooltip]:hover:before {
   transition-delay: 0.3s;
   transform: translate(-50%, -5px) scale(1);
 }
-/* Slide down effect only on mouseenter (NOT on mouseleave) */
+
+/* Slide down effect only on mouseenter (NOT on mouseleave). */
 [data-tooltip]:hover:after {
-  transition-delay: 0.5s; /* Starting after the grow effect */
+  transition-delay: 0.5s; /* Starting after the grow effect. */
   transition-duration: 0.2s;
   transform: translateX(-50%) scaleY(1);
 }
+
 /*
     That's it.
   */
@@ -86,8 +88,8 @@
     here are some orientation settings you can use:
   */
 
-/* LEFT */
-/* Tooltip + arrow */
+/* LEFT. */
+/* Tooltip + arrow. */
 [data-tooltip-location='left']:before,
 [data-tooltip-location='left']:after {
   left: auto;
@@ -95,7 +97,7 @@
   bottom: 50%;
 }
 
-/* Tooltip */
+/* Tooltip. */
 [data-tooltip-location='left']:before {
   transform: translate(-5px, 50%) scale(0.5);
 }
@@ -103,7 +105,7 @@
   transform: translate(-5px, 50%) scale(1);
 }
 
-/* Arrow */
+/* Arrow. */
 [data-tooltip-location='left']:after {
   border-width: 5px 0px 5px 5px;
   border-color: transparent transparent transparent rgba(55, 64, 70, 0.9);
@@ -114,7 +116,7 @@
   transform: translateY(50%) scaleX(1);
 }
 
-/* RIGHT */
+/* RIGHT. */
 [data-tooltip-location='right']:before,
 [data-tooltip-location='right']:after {
   left: calc(100% + 5px);
@@ -138,7 +140,7 @@
   transform: translateY(50%) scaleX(1);
 }
 
-/* BOTTOM */
+/* BOTTOM. */
 [data-tooltip-location='bottom']:before,
 [data-tooltip-location='bottom']:after {
   top: calc(100% + 5px);

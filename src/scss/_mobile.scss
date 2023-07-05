@@ -1,4 +1,4 @@
-//Styles for smaller screen sizes.
+// Styles for smaller screen sizes.
 @media (max-width: 1500px) {
   .about .biography p {
     padding-left: 2rem;
@@ -9,6 +9,22 @@
 @media (max-width: 1000px) {
   .return-to-top {
     visibility: hidden;
+  }
+
+  .tech .adjacent-tech-listings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+  }
+
+  .fields-tech-listing {
+    padding-bottom: 7rem;
+  }
+
+  .projects .chip-container {
+    display: none;
   }
 }
 

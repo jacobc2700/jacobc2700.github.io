@@ -1,7 +1,7 @@
-//Includes styles that apply to all elements on the page.
+// Includes styles that apply to all elements on the page.
 
 * {
-  //Include padding and border in an element's total width and height.
+  // Include padding and border in an element's total width and height.
   box-sizing: border-box;
 
   margin: 0;
@@ -14,7 +14,7 @@ body {
   line-height: 2;
 }
 
-//Button in the bottom right corner of the page that scrolls to the top.
+// Button in the bottom right corner of the page that scrolls to the top.
 .return-to-top {
   z-index: 10;
   position: fixed;

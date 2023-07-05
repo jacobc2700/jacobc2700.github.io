@@ -1,4 +1,4 @@
-@import "tooltips";
+@import 'tooltips';
 
 a {
   text-decoration: none;
@@ -18,32 +18,32 @@ ul {
 
   background-color: $dark;
 
-  //Separate two flex items.
+  // Separate two flex items.
   justify-content: space-between;
 
   padding: 0.7rem 2rem;
 
-  //Keep at top of screen & on top of all content.
+  // Keep at top of screen & on top of all content.
   position: fixed;
   z-index: 1;
   top: 0;
 
   ul {
-    //You got me moving side to side...
+    // You got me moving side to side...
     display: flex;
   }
 
   a {
     color: $white;
 
-    //Anchor tags within navbar that are hovered...
-    //Same as a:hover.
+    // Anchor tags within navbar that are hovered...
+    // Same as a:hover.
     &:hover {
       color: $green;
     }
   }
 
-  //Navbar brand.
+  // Navbar brand.
   h1 a {
     font-size: 2rem;
     font-weight: normal;
@@ -76,7 +76,7 @@ ul {
 
     font-size: 2.2rem;
 
-    //Center.
+    // Center everything!
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -94,7 +94,6 @@ ul {
   border-radius: 0.4rem;
   cursor: pointer;
   border: 0.1rem solid $white;
-
   transition: all 0.2s ease-in;
 
   &:hover {
@@ -102,12 +101,90 @@ ul {
   }
 }
 
+// Work experience timeline styles.
+.work {
+  min-height: 100vh;
+  background-color: $about-bg-color;
+  color: $about-text-color;
+
+  // Found with inspect element.
+  // Buttons at the bottom of the timeline.
+  .TimelineControlContainer-hkLVml.iEDRJb {
+    margin-bottom: 5.5rem;
+  }
+
+  // Hiding the dots on the timeline from react-chrono.
+  // Because they appear above the navigation bar on scroll.
+  .Shape-dPtZym.eqYdOT {
+    display: none;
+  }
+
+  h1.work-title {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  // From react-chrono, found through inspect element.
+  .kzPzXb {
+    justify-content: left;
+  }
+
+  // From react-chrono, found through inspect element.
+  .eYlYRs {
+    color: black;
+  }
+}
+
+// List of technologies page.
+.tech {
+  min-height: 100vh;
+  background-color: $project-bg-color;
+  color: $project-text-color;
+  text-align: center;
+
+  .single-course-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  // Two adjacent technology listings to save space.
+  .adjacent-tech-listings {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 15%;
+  }
+
+  .last-tech-listing {
+    padding-bottom: 7rem;
+  }
+
+  // Icons for categories of technologies.
+  .tech-listing {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .expand-btn {
+    color: $green;
+  }
+}
+
 .about {
   min-height: 100vh;
-  //change to pure white color
+
+  // Change to pure white color.
   background-color: $about-bg-color;
 
-  //Change to pure black color
+  // Change to pure black color.
   color: $about-text-color;
 
   h1 {
@@ -126,10 +203,14 @@ ul {
       padding-left: 20rem;
       padding-right: 20rem;
     }
+
+    a {
+      color: $green;
+    }
   }
 }
 
-//Particles (landing page).
+// Particles (landing page).
 .stars {
   height: 100%;
 
@@ -155,7 +236,7 @@ ul {
     font-size: 1.3em;
 
     .devicon-label {
-      font-family: "Lato" !important;
+      font-family: 'Lato' !important;
     }
   }
 
@@ -168,14 +249,16 @@ ul {
   }
 }
 
+// Styles for projects.
 .projects {
   min-height: 100vh;
-  //change to #f5f5f5
+
+  // Change to #f5f5f5.
   background-color: $project-bg-color;
-  //change to black
+
+  // Change to black.
   color: $project-text-color;
   padding-bottom: 8rem;
-  // margin-bottom: 10rem;
 
   .project-title {
     font-size: 3.5rem;
@@ -184,16 +267,19 @@ ul {
   }
 
   .card {
-    //change to black
+    // Change to black.
     border: 1px solid $project-card-border-color;
 
-    //change to white
+    // Change to white.
     background-color: $project-card-bg-color;
     border-radius: 0.2rem;
     width: 90%;
     margin: auto;
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     margin-bottom: 2rem;
 
     &:last-child {
@@ -219,10 +305,26 @@ ul {
     a {
       padding: 0 0.3rem;
     }
+
+    .chip {
+      padding: 0 0.2rem;
+      margin: 1rem 0;
+      background: $green;
+      color: white;
+    }
+  }
+
+  .chip-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.7rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 
-/* Footer */
+/* Footer styles. */
 
 .footer {
   padding: 7% 15%;
@@ -231,25 +333,30 @@ ul {
   color: $white;
 }
 
-/* Font awesome footer icons */
+/* Font awesome footer icons. */
 .footer-icon {
   margin: 20px 10px;
   font-size: 30px;
   color: $white;
 }
 
-/* Designed by Jacob */
+.last-updated {
+  font-size: 1rem;
+  color: $white;
+}
+
+/* Designed by Jacob logo. */
 .footer-text {
   font-size: 20px;
 }
 
-/* Turn font awesome icons green on hover */
+/* Turn font awesome icons green on hover. */
 i.footer-icon:hover {
   color: $green;
   text-decoration: none;
 }
 
-//Express devicon.
+// Express devicon.
 .devicon-express-original.colored {
   color: rgb(139, 139, 139);
 }
@@ -258,4 +365,4 @@ i.footer-icon:hover {
   color: #00bc8c;
 }
 
-@import "mobile";
+@import 'mobile';

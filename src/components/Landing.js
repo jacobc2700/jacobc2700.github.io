@@ -1,26 +1,29 @@
-import React, { Fragment } from "react";
-import Navigation from "./Navigation";
-import Particles from "react-particles-js";
+import React, { Fragment } from 'react';
+import Navigation from './Navigation';
+import Particles from 'react-particles-js';
 
 const Landing = (props) => {
   const onSubmit = (e) => {
     e.preventDefault();
     props.aboutReference.current.scrollIntoView({
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
   return (
     <Fragment>
-      <section className="landing">
+      <section className='landing'>
         <Navigation
           theme={props.theme}
           setTheme={props.setTheme}
           aboutReference={props.aboutReference}
           linksReference={props.linksReference}
+          projectsReference={props.projectsReference}
+          workReference={props.workReference}
+          techReference={props.techReference}
         ></Navigation>
 
-        <div className="stars">
+        <div className='stars'>
           <Particles
             params={{
               particles: {
@@ -32,19 +35,19 @@ const Landing = (props) => {
                   },
                 },
                 color: {
-                  value: "#ffffff",
+                  value: '#ffffff',
                 },
                 shape: {
-                  type: "circle",
+                  type: 'circle',
                   stroke: {
                     width: 0,
-                    color: "#000000",
+                    color: '#000000',
                   },
                   polygon: {
                     nb_sides: 5,
                   },
                   image: {
-                    src: "img/github.svg",
+                    src: 'img/github.svg',
                     width: 100,
                     height: 100,
                   },
@@ -72,17 +75,17 @@ const Landing = (props) => {
                 line_linked: {
                   enable: false,
                   distance: 150,
-                  color: "#ffffff",
+                  color: '#ffffff',
                   opacity: 0.4,
                   width: 1,
                 },
                 move: {
                   enable: true,
                   speed: 0.2,
-                  direction: "none",
+                  direction: 'none',
                   random: true,
                   straight: false,
-                  out_mode: "out",
+                  out_mode: 'out',
                   bounce: false,
                   attract: {
                     enable: false,
@@ -92,15 +95,15 @@ const Landing = (props) => {
                 },
               },
               interactivity: {
-                detect_on: "canvas",
+                detect_on: 'canvas',
                 events: {
                   onhover: {
                     enable: true,
-                    mode: "bubble",
+                    mode: 'bubble',
                   },
                   onclick: {
                     enable: true,
-                    mode: "push",
+                    mode: 'push',
                   },
                   resize: true,
                 },
@@ -135,10 +138,10 @@ const Landing = (props) => {
           />
         </div>
 
-        <div className="intro">
-          <h1 className="header">Hello, I'm Jacob.</h1>
-          <a href="/#" className="btn" onClick={onSubmit}>
-            Explore &nbsp; <i className="fa fa-arrow-down"></i>
+        <div className='intro'>
+          <h1 className='header'>Hello, I'm Jacob.</h1>
+          <a href='/#' className='btn' onClick={onSubmit}>
+            Explore &nbsp; <i className='fa fa-arrow-down'></i>
           </a>
         </div>
       </section>
