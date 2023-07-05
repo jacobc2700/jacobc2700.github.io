@@ -250,11 +250,11 @@ const Technology = (props) => {
           {/* Make a loop for this instead... */}
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            CS 124: Introduction to Computer Science with Java
+            CS 124: Introduction to Computer Science (Java)
           </div>
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            CS 128: Introduction to Computer Science with C++
+            CS 128: Introduction to Computer Science (C++)
           </div>
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
