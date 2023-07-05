@@ -5,7 +5,7 @@ const work = [
     url: 'https://www.optum.com/',
     cardSubtitle: 'Network Connectivity Integration',
     cardDetailedText:
-      'Worked on the network integration team to assist in connecting employees under.',
+      'Worked on the network integration team to assist in connecting employees under newly acquired companies to the internal Optum (UHG) network securely. Worked on building a graphical user interface (GUI) to automatically populate rack diagram templates from several key documents in the integration process. ',
   },
   {
     title: 'January 2023 - April 2023',

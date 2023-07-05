@@ -185,100 +185,66 @@ const Technology = (props) => {
           <div className='technology-list-container'>
             <div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-anaconda-original colored'></i>
+                <span className='devicon-label'>Anaconda</span>
               </div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-npm-original-wordmark colored'></i>
+                <span className='devicon-label'>NPM</span>
               </div>
               <div>
-                <i className='devicon devicon-mongodb-plain colored'></i>
-                <span className='devicon-label'>MongoDB</span>
-              </div>
-            </div>
-            <div>
-              <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
-              </div>
-              <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
-              </div>
-              <div>
-                <i className='devicon devicon-mongodb-plain colored'></i>
-                <span className='devicon-label'>MongoDB</span>
+                <i className='devicon devicon-markdown-original colored'></i>
+                <span className='devicon-label'>Markdown</span>
               </div>
             </div>
             <div>
               <div>
-                <i className='devicon devicon-nodejs-plain colored'></i>
-                <span className='devicon-label'>Node.js</span>
+                <i className='devicon devicon-git-plain colored'></i>
+                <span className='devicon-label'>Git</span>
               </div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-github-original'></i>
+                <span className='devicon-label'>GitHub</span>
               </div>
               <div>
-                <i className='devicon devicon-express-original colored'></i>
-                <span className='devicon-label'>Express</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Fields */}
-        <div className='tech-listing'>
-          <h2>Fields</h2>
-          <div className='technology-list-container'>
-            <div>
-              <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
-              </div>
-              <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
-              </div>
-              <div>
-                <i className='devicon devicon-javascript-plain colored'></i>
-                <span className='devicon-label'>JavaScript</span>
-              </div>
-              <div>
-                <i className='devicon devicon-mongodb-plain colored'></i>
-                <span className='devicon-label'>MongoDB</span>
+                <i className='devicon devicon-vscode-plain colored'></i>
+                <span className='devicon-label'>Visual Studio Code</span>
               </div>
             </div>
             <div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-linux-plain'></i>
+                <span className='devicon-label'>Linux</span>
               </div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-redis-plain colored'></i>
+                <span className='devicon-label'>Redis</span>
+              </div>
+              <div>
+                <i className='devicon devicon-heroku-original colored'></i>
+                <span className='devicon-label'>Heroku</span>
               </div>
             </div>
             <div>
               <div>
-                <i className='devicon devicon-nodejs-plain colored'></i>
-                <span className='devicon-label'>Node.js</span>
+                <i className='devicon devicon-amazonwebservices-original colored'></i>
+                <span className='devicon-label'>AWS</span>
               </div>
               <div>
-                <i className='devicon devicon-react-original colored'></i>
-                <span className='devicon-label'>React</span>
+                <i className='devicon devicon-ubuntu-plain colored'></i>
+                <span className='devicon-label'>Ubuntu</span>
               </div>
               <div>
-                <i className='devicon devicon-html5-plain colored'></i>
-                <span className='devicon-label'>HTML</span>
+                <i className='devicon devicon-googlecloud-plain colored'></i>
+                <span className='devicon-label'>Google Cloud</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class='adjacent-tech-listings courses-container'>
+      <div class='adjacent-tech-listings'>
         {/* Courses */}
-        <div className='tech-listing'>
+        <div className='tech-listing last-tech-listing'>
           <h2>Courses</h2>
 
           {/* Make a loop for this instead... */}
@@ -340,7 +306,7 @@ const Technology = (props) => {
             MATH 257: Linear Algebra
           </div>
         </div>
-        <div className='tech-listing'>
+        <div className='tech-listing fields-tech-listing'>
           <h2>Fields</h2>
 
           {/* Make a loop for this instead... */}
@@ -362,6 +328,10 @@ const Technology = (props) => {
           </div>
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
+            Data Analysis
+          </div>
+          <div className='single-course-container'>
+            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
             Machine Learning
           </div>
           <div className='single-course-container'>
@@ -374,31 +344,7 @@ const Technology = (props) => {
           </div>
           <div className='single-course-container'>
             <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Computer Architecture
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Computer Graphics
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Computer Security
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Computer Vision
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Data Mining
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Database Systems
-          </div>
-          <div className='single-course-container'>
-            <SubdirectoryArrowRightIcon></SubdirectoryArrowRightIcon>
-            Distributed Systems
+            Systems Programming ⭐
           </div>
         </div>
       </div>
