@@ -79,7 +79,7 @@ const Technology = (props) => {
             </div>
             <div>
               <div>
-                <i className='devicon devicon-pandas-original colored'></i>
+                <i className='devicon devicon-pandas-original'></i>
                 <span className='devicon-label'>Pandas</span>
               </div>
               <div>
