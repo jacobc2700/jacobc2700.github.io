@@ -5,7 +5,7 @@ const projects = [
     description:
       'Flexer is a platform for software engineers to manage their professional portfolio and connect with other engineers. Registered users can also keep track of their favorite companies, compare compensation packages, track solved interview problems, and write private notes. The back-end is built with Django & MySQL, while the front-end is built with React.js, Material UI, and Next.js.',
     linkURL: '#',
-    sourceURL: '#',
+    sourceURL: 'https://github.com/jacobc2700/flexer',
     technologies: ['TypeScript', 'Django', 'MySQL', 'Next.js', 'Supabase'],
   },
   {
