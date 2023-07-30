@@ -24,7 +24,7 @@ const Footer = (props) => {
           <i className='footer-icon fa fa-linkedin'></i>
         </a>
         <a
-          href='https://drive.google.com/file/d/1zRS4FGqUHFaa5ORzdbU1XPfM3_capNBS/view'
+          href='https://drive.google.com/file/d/1G_l-9W58LfUbNqPZK8-0Y9tuLXjxdz6t/view'
           data-tooltip='Resume'
           data-tooltip-location='top'
           target='_blank'
@@ -42,7 +42,7 @@ const Footer = (props) => {
 
         {/* Last updated... */}
         <div className='last-updated'>
-          <span>Last updated on 7/4/2023.</span>
+          <span>Last updated on 7/30/2023.</span>
         </div>
 
         <p className='footer-text'>Designed by Jacob with ❤️</p>
