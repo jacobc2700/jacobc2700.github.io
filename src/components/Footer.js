@@ -24,7 +24,7 @@ const Footer = (props) => {
           <i className='footer-icon fa fa-linkedin'></i>
         </a>
         <a
-          href='https://drive.google.com/file/d/1G_l-9W58LfUbNqPZK8-0Y9tuLXjxdz6t/view'
+          href='https://drive.google.com/file/d/1x5PqmkUjP6BvyIyghXk68srmWEwOPR_e/view'
           data-tooltip='Resume'
           data-tooltip-location='top'
           target='_blank'
