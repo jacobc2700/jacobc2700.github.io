@@ -13,7 +13,7 @@ const work = [
     url: "https://www.capitalone.com",
     cardSubtitle: "Enterprise Graph Services",
     cardDetailedText:
-      "Implemented an effective custom graph model of real customer data to detect potential fraudulent transactions and discover insights about customers. Built a custom graph network consisting of nodes/edges based on existing tabular data. Utilized the GraphSage inductive learning framework to train a graph neural network for generating graph embeddings of customer transaction data. Utilized UMAP to create visualizations of fraud clusters detected with GraphSage.",
+      "Implemented an effective custom graph model of real customer data to detect potential fraudulent transactions and discover insights about customers. Built a custom graph network consisting of nodes & edges based on existing tabular data. Utilized the GraphSage inductive learning framework to train a graph neural network for generating graph embeddings of customer transaction data. Utilized UMAP to create visualizations of fraud clusters detected with GraphSage.",
   },
   {
     title: "October 2022 - January 2023",
