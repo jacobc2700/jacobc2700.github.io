@@ -1,15 +1,15 @@
-import React, { useState, useRef } from 'react';
-import Landing from './components/Landing';
-import About from './components/About';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-import Work from './components/Work';
+import React, { useState, useRef } from "react";
+import Landing from "./components/Landing";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Work from "./components/Work";
 
-import './scss/main.scss';
-import Technology from './components/Technology';
+import "./scss/main.scss";
+import Technology from "./components/Technology";
 
 const App = () => {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState("dark");
   const aboutReference = useRef(null);
   const projectsReference = useRef(null);
   const linksReference = useRef(null);
@@ -17,8 +17,8 @@ const App = () => {
   const techReference = useRef(null);
 
   return (
-    <div className={theme ? theme : 'dark'}>
-      <div className='App'>
+    <div className={theme ? theme : "dark"}>
+      <div className="App">
         <Landing
           aboutReference={aboutReference}
           linksReference={linksReference}

@@ -9,13 +9,13 @@ const projects = [
     technologies: ["TypeScript", "Django", "MySQL", "Next.js", "Supabase"],
   },
   {
-    name: "Steam Game Recommender",
-    date: "January 2023 - May 2023",
+    name: "Poker Hand Analyzer",
+    date: "December 2022 - January 2023",
     description:
-      "Built a full-stack Express & Node.js web application for users to maintain a Steam video game collection and receive game recommendations. Obtained data from a public Kaggle dataset with 10,000+ Steam games. Conceptualized the database design by drawing ER and UML diagrams. Wrote SQL queries that interacted with a MySQL database instance hosted on Google Cloud Platform (GCP). Implemented user authentication, CRUD operations, and advanced SQL queries including transactions, triggers, and stored procedures. Developed as part of CS 411 semester-long project.",
-    linkURL: "https://www.youtube.com/watch?v=zBsQd0mRvZM",
+      "Wrote custom algorithms for determining win likelihoods of players, determining highest hands, & validating sets of hands with C++. Created high-coverage unit tests with the Catch2 framework and debugged code with Valgrind & GDB. Handled file I/O & CLI commands for typical Poker rounds and followed the Object-Oriented Programming (OOP) paradigm for class designs.",
+    linkURL: "#",
     sourceURL: "#",
-    technologies: ["Node.js", "Express", "Bootstrap", "MySQL", "GCP"],
+    technologies: ["C++", "Valgrind", "Make", "GDB"],
   },
   {
     name: "Bike New York City",
@@ -25,42 +25,6 @@ const projects = [
     linkURL: "#",
     sourceURL: "https://github.com/pillious/bike-nyc",
     technologies: ["Pandas", "Jupyter", "Folium"],
-  },
-  {
-    name: "Music Genre Classifier",
-    date: "September 2022 - December 2022",
-    description:
-      "Trained & optimized machine learning models for the multiclass classification (10+ genres) of any audio file. Compared performance of recurrent neural networks and convolutional neural networks. Extracted MFCC features, reduced overfitting, & tuned hyperparameters to increase model accuracy. Converted user file uploads provided from the front-end into model inputs and displayed the predictions on a web interface built with React, Flask, and CSS.",
-    linkURL: "#",
-    sourceURL: "https://github.com/CS222-UIUC/course-project-group-73",
-    technologies: ["PyTorch", "Flask", "React", "Librosa", "NumPy"],
-  },
-  {
-    name: "SPIMBot",
-    date: "November 2022 - December 2022",
-    description:
-      "Translated C to MIPS assembly to control virtual robots with memory-mapped I/O. Handled interrupts & exceptions while using VMWare & QtSpim for development. Competed in tournament against 300+ students in CS 233 course.",
-    linkURL: "#",
-    sourceURL: "#",
-    technologies: ["C", "MIPS", "Assembly", "QtSpim", "VMWare"],
-  },
-  {
-    name: "Handwritten Digits Classifier",
-    date: "November 2022 - December 2022",
-    description:
-      "Learned how to train a feed-forward neural network to classify handwritten digits from the MNIST dataset with 90%+ accuracy on the Google Colab platform. Compared model accuracies with GD, SGD, and ADAM optimizers. Plotted test losses & documented results with LaTeX as part of CS 361 course final project.",
-    linkURL: "#",
-    sourceURL: "#",
-    technologies: ["PyTorch", "Python", "Anaconda"],
-  },
-  {
-    name: "Poker Hand Analyzer",
-    date: "December 2022 - January 2023",
-    description:
-      "Wrote custom algorithms for determining win likelihoods of players, determining highest hands, & validating sets of hands with C++. Created high-coverage unit tests with the Catch2 framework and debugged code with Valgrind & GDB. Handled file I/O & CLI commands for typical Poker rounds and followed the Object-Oriented Programming (OOP) paradigm for class designs.",
-    linkURL: "#",
-    sourceURL: "#",
-    technologies: ["C++", "Valgrind", "Make", "GDB"],
   },
   {
     name: "Smart Documentation",
@@ -100,7 +64,7 @@ const projects = [
   },
   {
     name: "Newton Pavements",
-    date: "May 2023 - June 2023",
+    date: "August 2019 - December 2019",
     description:
       "Recruited by City Councilor & Representative Jake Auchincloss to develop city website for viewing pavement conditions in Newton, MA. Used by Newton residents to track city construction projects spanning 8 years (2017 - 2025). Created with Bootstrap, jQuery, JavaScript, HTML, CSS and the Google Maps API.",
     linkURL: "https://www.jacobechang.com/newton-pavements/",
@@ -115,6 +79,15 @@ const projects = [
     linkURL: "https://www.youtube.com/watch?v=eYor5dEHkTI",
     sourceURL: "#",
     technologies: ["Node.js", "AWS", "PostgreSQL"],
+  },
+  {
+    name: "Flask Audio Player",
+    date: "December 2018 - August 2019",
+    description:
+      "Built a web application for playing audio files from YouTube. Users can save videos from YouTube to their library and organize videos into playlists. There are also options for shuffle play, downloading videos, and viewing video statistics. Utilized the YouTube API for video data.",
+    linkURL: "#",
+    sourceURL: "https://github.com/jacobc2700/audio-player",
+    technologies: ["Flask", "Python", "SQLite", "JavaScript", "jQuery"],
   },
 ];
 

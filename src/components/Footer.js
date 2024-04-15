@@ -39,10 +39,19 @@ const Footer = (props) => {
         >
           <i className="footer-icon fa fa-envelope"></i>
         </a>
+        <a
+          href="https://docs.google.com/document/d/1ksYZjwUUfb7fSYlj2tuTkoFIehdvsMzQvXfIDbMyZs8/edit"
+          data-tooltip="Skills"
+          data-tooltip-location="top"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="footer-icon fa fa-book"></i>
+        </a>
 
         {/* Last updated... */}
         <div className="last-updated">
-          <span>Last updated on 9/28/2023.</span>
+          <span>Most Recent Update: 4/12/2024</span>
         </div>
 
         <p className="footer-text">Designed by Jacob with ❤️</p>

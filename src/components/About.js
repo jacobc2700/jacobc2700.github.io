@@ -8,14 +8,12 @@ const About = (props) => {
         <div className="biography">
           <div>
             <p>
-              Hello! My name is Jacob Chang and I'm a Junior at the University
+              Hello! My name is Jacob Chang and I'm a student at the University
               of Illinois at Urbana-Champaign (UIUC) majoring in Computer
-              Science with a minor in Statistics. I am a computer programmer who
-              is interested in developing scalable & optimized system software.
-              I'm primarily based in Boston, Massachusetts. My focus area is
-              operating systems, networking, and security. However, I have
-              experience with full-stack web development, machine learning, and
-              data science too. Other hobbies I've had include playing the{" "}
+              Science with a minor in Statistics. I'm a computer programmer who
+              is interested in operating systems, networking, and security. I'm
+              primarily based in Boston, Massachusetts. Other hobbies I've had
+              include playing the{" "}
               <a
                 target="_blank"
                 href="https://www.youtube.com/playlist?list=PLts6Hfh7zIYthSGU38ZxyQMrtRlzyQHqd"
