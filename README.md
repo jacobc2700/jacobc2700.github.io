@@ -20,6 +20,7 @@ git push origin master
 
 - Go to the repository settings and set the custom domain to `www.jacobechang.com` (enforce HTTPS).
 - The updated website should be live: https://www.jacobechang.com/.
+- Requires v16.20.2 of Node.js.
 
 ### Technologies:
 
